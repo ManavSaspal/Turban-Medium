@@ -1,0 +1,108 @@
+* {
+  /*border: 3px solid darkred;*/
+}
+h1 {
+  /*background-color: burlywood;*/
+  font-size: 80px;
+  height: 23%;
+  margin-bottom: 0px;
+  color: rgba(0, 134, 151);
+  text-shadow: rgb(232, 253, 255) 5px 0 10px;
+  margin-top: 0px;
+}
+.timeinp {
+  width: 100px;
+}
+
+body {
+  color: rgb(0, 65, 73);
+  background-image: url("bg.jpg");
+}
+
+main {
+  /*background-color: crimson;*/
+  display: flex;
+  height: 70%;
+}
+
+#left {
+  margin-top: 50px;
+  margin-left: 50px;
+  /*background-color: cadetblue;*/
+}
+
+#left-top {
+  display: block;
+  /*background-color: aqua;*/
+  float: left;
+  margin-left: 0%;
+  height: 100px;
+  width: 100%;
+}
+#left-bottom {
+  margin-top: 100px;
+  display: block;
+  /*background-color: brown;*/
+  float: left;
+  /*margin-left: 90%;*/
+}
+#scheduledisplay {
+  /*background-color: chartreuse;*/
+  margin: auto;
+  border: 1px solid black;
+  width: 85%;
+  margin: 10px 50px;
+}
+#canvas {
+  flex: 1;
+  /*background-color: darkolivegreen;*/
+  padding-top: 20px;
+  margin: 0 50px;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: inset 0px 0px 10px rgba(0, 134, 151, 0.9);
+  background-color: rgba(221, 245, 255, 0.4);
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  transition: 0.2s linear;
+  border-radius: 5%;
+  box-shadow: white 2px 0 5px;
+}
+
+input:hover {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  box-shadow: none;
+}
+
+button {
+  background-color: rgba(0, 134, 151);
+  border: none;
+  border-radius: 5%;
+  padding: 10px;
+  box-shadow: rgb(196, 248, 255) 5px 5px 10px;
+  transition: 0.2s linear;
+  color: white;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+#addtoschedule {
+  margin-top: 20px;
+  margin-left: 195px;
+}
+
+#timer {
+  background-color: rgba(179, 98, 112, 0.9);
+  margin-top: 0px;
+  padding: 10px 40px;
+  margin-right: 60px;
+  float: right;
+}

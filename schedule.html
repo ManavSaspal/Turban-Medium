@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="schedule.css">
+
+  <title>TM Schedule</title>
+</head>
+<body>
+  <h1 style="text-align: center">Schedule</h1>
+  <main>
+    <div id="left">
+      <div id="left-top">
+        <label for="eventname"> Event Name: </label>
+        <input
+          type="text"
+          class="sheduleinput"
+          name="eventname"
+          id="eventname"
+          placeholder="Enter the event name"
+        /><br />
+        <label for="starttime"> Start time </label> &
+        <label for="endtime"> End time: </label>
+        <br />&emsp;&nbsp;&nbsp;&nbsp;
+        <input type="time" class="timeinp" id="starttime" name="starttime" /> -
+        <input type="time" class="timeinp" id="endtime" name="endtime" /><br />
+        <!--     <input type="date" class="timeinp" id="curdate">
+ -->
+        <button type="button" id="addtoschedule">Add Event</button>
+      </div>
+      <div id="left-bottom">
+        Display Mode:
+        <input
+          type="radio"
+          name="display"
+          value="Day"
+          checked="true"
+          id="dayradio"
+        />
+        Day
+        <!-- <input type="radio" name="display" value="Week" id="weekradio"> Week  -->
+
+      </div>
+    </div>
+    <div id="canvas">
+      <canvas id="scheduledisplay" width="777" height="600"></canvas>
+    </div>
+  </main>
+  <br>
+  <button onclick="document.location='timer.html'" id="timer">Go To Timer</button>
+  <p style="text-align: left">
+    Image by
+    <a
+      href="https://pixabay.com/users/barbaraalane-756613/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1668079"
+      >Barbara A Lane</a
+    >
+    from
+    <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1668079"
+      >Pixabay</a
+    >
+  </p>
+</body>
+</html>
+
+<script src="schedule.js"></script>
+
+

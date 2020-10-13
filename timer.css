@@ -1,0 +1,77 @@
+body {
+  background-image: url("pink-bg.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: rgba(179, 98, 112, 0.9);
+  text-shadow: rgb(255, 255, 255) 3px 0 15px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.input {
+  padding-top: 20px;
+  width: 420px;
+  margin: auto;
+  color: rgb(134, 54, 68);
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  transition: 0.2s linear;
+  border-radius: 5%;
+  box-shadow: white 2px 0 5px;
+  width: 50px;
+}
+
+input:hover {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  box-shadow: none;
+}
+
+button {
+  background-color: rgba(179, 98, 112, 0.9);
+  border: none;
+  border-radius: 5%;
+  padding: 10px 40px;
+  margin-top: 0px;
+  float: right;
+  box-shadow: rgb(255, 251, 251) 5px 5px 10px;
+  transition: 0.2s linear;
+  color: rgb(255, 251, 251);
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+#startTimer {
+  margin-right: 150px;
+}
+
+.countdown {
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 140px 0px;
+  width: 400px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: rgba(179, 98, 112, 0.9) 4px 0 10px;
+}
+
+#schedule {
+  margin-top: -40px;
+  margin-right: 50px;
+  background-color: rgba(0, 134, 151);
+}
+
+#writeToTimer {
+  font-family: monospace;
+  font-size: 80px;
+  text-align: center;
+  color: rgba(179, 98, 112, 0.9);
+}
